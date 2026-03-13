@@ -75,6 +75,9 @@
 /* =========================================
    Reset / base
    ========================================= */
+html {
+  scroll-behavior: smooth;
+}
 *,
 *::before,
 *::after {
@@ -402,6 +405,7 @@ ul {
 .hero-image {
   aspect-ratio: 4 / 5;
   width: 100%;
+   filter: saturate(0.92) contrast(0.96);
   object-fit: cover;
 }
 
