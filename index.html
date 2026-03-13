@@ -3,26 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blomstermarken ApS</title>
+  <title>Blomstermarken</title>
   <meta
     name="description"
-    content="Blomstermarken ApS tilbyder undervisning og faglig formidling med afsæt i stærke sundhedsfaglige og juridiske profiler."
+    content="Blomstermarken tilbyder undervisning og faglig formidling med afsæt i stærke sundhedsfaglige og juridiske profiler."
   />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="site-logo" href="index.html" aria-label="Blomstermarken ApS forside">
-        <img src="assets/images/logo.svg" alt="Blomstermarken ApS" class="logo">
+      <a class="site-logo" href="index.html" aria-label="Blomstermarken forside">
+        <img src="assets/images/logo.svg" alt="Blomstermarken" class="logo" />
+        <span class="site-logo-text">Blomstermarken</span>
       </a>
 
       <nav class="site-nav" aria-label="Hovednavigation">
         <ul class="nav-list">
           <li><a href="index.html" aria-current="page">Forside</a></li>
-          <li><a href="undervisning.html">Undervisning</a></li>
           <li><a href="maja.html">Maja</a></li>
           <li><a href="peter.html">Peter</a></li>
+          <li><a href="kunder.html">Hvad siger vores kunder</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
       </nav>
@@ -30,22 +31,26 @@
   </header>
 
   <main>
-    <section class="hero hero-split">
+    <section class="hero hero-split" aria-labelledby="hero-heading">
       <div class="container hero-grid">
         <div class="hero-content">
           <p class="eyebrow">Undervisning og faglig formidling</p>
-          <h1>
-            Fagligt stærk undervisning
-            med praksisnær tyngde.
+          <h1 id="hero-heading">
+            Fagligt stærk undervisning med praksisnær tyngde
           </h1>
           <p class="hero-lead">
-            Blomstermarken ApS udvikler og gennemfører undervisning, oplæg og
-            faglige forløb med afsæt i stærke profiler, høj troværdighed og
-            tydelig formidling.
+            Blomstermarken udvikler og gennemfører undervisning, oplæg og faglige
+            forløb med afsæt i stærke profiler, høj troværdighed og tydelig formidling.
           </p>
+          <p>
+            Vi arbejder i krydsfeltet mellem klinisk praksis, sundhedsfaglig
+            specialviden, jura og organisatoriske problemstillinger og tilpasser
+            undervisningen til målgruppe, formål og kontekst.
+          </p>
+
           <div class="hero-actions">
-            <a class="button" href="undervisning.html">Se undervisning</a>
-            <a class="button button-secondary" href="kontakt.html">Kontakt os</a>
+            <a class="button" href="kontakt.html">Kontakt os om undervisning</a>
+            <a class="button button-secondary" href="#undervisning">Se hvad vi tilbyder</a>
           </div>
         </div>
 
@@ -53,7 +58,7 @@
           <figure class="hero-image-frame">
             <img
               src="assets/images/hero.jpg"
-              alt="Visuelt stemningsbillede for Blomstermarken ApS"
+              alt="Visuelt stemningsbillede for Blomstermarken"
               class="hero-image"
             />
           </figure>
@@ -61,53 +66,75 @@
       </div>
     </section>
 
-    <section class="section section-intro">
+    <section class="section section-intro" aria-labelledby="intro-heading">
       <div class="container narrow">
+        <div class="section-header">
+          <p class="eyebrow">Blomstermarken</p>
+          <h2 id="intro-heading">Undervisning, der kan bruges i praksis</h2>
+        </div>
+
         <p class="section-intro-text">
           Vi tilbyder undervisning og faglig formidling, hvor indhold, målgruppe
-          og kontekst tænkes sammen. Vores arbejde bygger på faglig substans,
-          høj forberedelse og formidling, der kan bruges i praksis.
+          og sammenhæng tænkes sammen. Vores arbejde bygger på faglig substans,
+          høj forberedelse og formidling, der skaber klarhed, refleksion og
+          anvendelighed i praksis.
         </p>
       </div>
     </section>
 
-    <section class="section section-competencies" aria-labelledby="kompetencer-heading">
+    <section class="section section-highlights section-alt" id="undervisning" aria-labelledby="undervisning-heading">
       <div class="container">
         <div class="section-header">
-          <p class="eyebrow">Kompetencer</p>
-          <h2 id="kompetencer-heading">Det vi bringer ind i rummet</h2>
+          <p class="eyebrow">Undervisning</p>
+          <h2 id="undervisning-heading">Hvad vi typisk tilbyder</h2>
         </div>
 
-        <div class="card-grid card-grid-four">
+        <div class="card-grid card-grid-three">
           <article class="info-card">
-            <h3>Undervisning</h3>
+            <h3>Faglige oplæg</h3>
             <p>
-              Faglige oplæg, temadage og undervisningsforløb med fokus på høj
-              anvendelighed og tydelig formidling.
+              Oplæg og kortere undervisningssessioner med tydelig formidling og
+              fokus på det, der er relevant i praksis.
             </p>
           </article>
 
           <article class="info-card">
-            <h3>Faglig tyngde</h3>
+            <h3>Temadage og kurser</h3>
             <p>
-              Undervisning forankret i solid erfaring, stærke faglige profiler
-              og indhold med reel substans.
+              Halv- og heldagsforløb, hvor faglig fordybelse kombineres med cases,
+              refleksion og dialog i gruppen.
             </p>
           </article>
 
           <article class="info-card">
             <h3>Skræddersyede forløb</h3>
             <p>
-              Indhold udviklet med blik for målgruppe, organisatorisk kontekst
-              og det konkrete læringsbehov.
+              Undervisning udviklet til en konkret målgruppe, organisation eller
+              faglig problemstilling.
             </p>
           </article>
 
           <article class="info-card">
-            <h3>Klar formidling</h3>
+            <h3>Klinisk praksis</h3>
+            <p>
+              Emner fra den kliniske hverdag, herunder den ældre medicinske patient,
+              komplekse forløb og tværfagligt samarbejde.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <h3>Jura og ansvar</h3>
+            <p>
+              Undervisning om juridiske rammer, fagligt ansvar, beslutningskompetence
+              og de gråzoner, som opstår i sundhedsvæsenets praksis.
+            </p>
+          </article>
+
+          <article class="info-card info-card-emphasis">
+            <h3>Praksisnær formidling</h3>
             <p>
               Komplekse emner oversat til en form, der er præcis, tilgængelig og
-              anvendelig i praksis.
+              anvendelig for dem, der skal bruge det i virkeligheden.
             </p>
           </article>
         </div>
@@ -117,8 +144,8 @@
     <section class="section section-people" aria-labelledby="people-heading">
       <div class="container">
         <div class="section-header">
-          <p class="eyebrow">Mød os</p>
-          <h2 id="people-heading">To stærke profiler</h2>
+          <p class="eyebrow">Profiler</p>
+          <h2 id="people-heading">Mød Maja og Peter</h2>
         </div>
 
         <div class="people-grid">
@@ -126,19 +153,20 @@
             <div class="profile-image-wrap">
               <img
                 src="assets/images/maja-square.jpg"
-                alt="Portræt af Maja"
+                alt="Portræt af Maja Sparre"
                 class="profile-image"
               />
             </div>
             <div class="profile-content">
-              <h3>Maja</h3>
+              <h3>Maja Sparre</h3>
               <p class="profile-summary">
                 Maja bidrager med sundhedsfaglig tyngde, klinisk erfaring og
                 undervisning med blik for praksis, målgruppe og kvalitet.
               </p>
               <p>
-                Hun underviser med fokus på faglig anvendelighed, tydelighed og
-                sammenhæng mellem viden og hverdagspraksis.
+                Hun underviser med afsæt i arbejdet med ældre medicinske patienter,
+                videreuddannelse og faglig formidling, der bygger bro mellem
+                specialistviden og klinisk hverdag.
               </p>
               <p class="profile-link">
                 <a href="maja.html">Læs mere om Maja</a>
@@ -150,19 +178,19 @@
             <div class="profile-image-wrap">
               <img
                 src="assets/images/peter-square.jpg"
-                alt="Portræt af Peter"
+                alt="Portræt af Peter Nikolai Riise Hansen"
                 class="profile-image"
               />
             </div>
             <div class="profile-content">
-              <h3>Peter</h3>
+              <h3>Peter Nikolai Riise Hansen</h3>
               <p class="profile-summary">
                 Peter arbejder i krydsfeltet mellem jura, sundhedsvæsen og
                 undervisning og formidler komplekse emner med ro og præcision.
               </p>
               <p>
-                Han underviser i emner, hvor juridisk forståelse, fagligt ansvar
-                og praktiske gråzoner skal omsættes til handling.
+                Han underviser i emner, hvor juridisk forståelse, fagligt ansvar,
+                regulering og organisatoriske hensyn skal omsættes til handling.
               </p>
               <p class="profile-link">
                 <a href="peter.html">Læs mere om Peter</a>
@@ -173,48 +201,58 @@
       </div>
     </section>
 
-    <section class="section section-topics" aria-labelledby="topics-heading">
+    <section class="section section-soft-contrast" aria-labelledby="kunder-heading">
       <div class="container">
         <div class="section-header">
-          <p class="eyebrow">Undervisning</p>
-          <h2 id="topics-heading">Temaer og formater</h2>
+          <p class="eyebrow">Hvad siger vores kunder</p>
+          <h2 id="kunder-heading">Undervisning, der bliver husket og brugt</h2>
         </div>
 
-        <div class="topics-layout">
-          <div class="topics-copy">
+        <div class="card-grid card-grid-three">
+          <article class="info-card">
+            <h3>Praksisnært</h3>
             <p>
-              Vi tilbyder undervisning, oplæg og faglige forløb, der kan stå
-              alene eller indgå som del af et større læringsforløb. Indholdet
-              tilpasses målgruppe, varighed og formål.
+              “Et meget klart og praksisnært oplæg, som gav os et fælles sprog for
+              nogle svære beslutninger.”
             </p>
-          </div>
+          </article>
 
-          <div class="topics-list-wrap">
-            <ul class="topics-list">
-              <li>Faglige oplæg og temadage</li>
-              <li>Undervisning for sundhedsprofessionelle</li>
-              <li>Praksisnær formidling af komplekse emner</li>
-              <li>Skræddersyede forløb til konkrete behov</li>
-              <li>Undervisning med afsæt i stærke individuelle profiler</li>
-            </ul>
-          </div>
+          <article class="info-card">
+            <h3>Relevant</h3>
+            <p>
+              “Undervisningen ramte præcist vores hverdag og gav gode refleksioner
+              i gruppen.”
+            </p>
+          </article>
+
+          <article class="info-card">
+            <h3>Tydeligt</h3>
+            <p>
+              “Fagligt stærkt og formidlet på en måde, der gjorde komplekse emner
+              konkrete og anvendelige.”
+            </p>
+          </article>
         </div>
 
         <div class="section-actions">
-          <a class="text-link" href="undervisning.html">Se mere om undervisning</a>
+          <a class="text-link" href="kunder.html">Læs mere om kundernes erfaringer</a>
         </div>
       </div>
     </section>
 
-    <section class="section section-contact" aria-labelledby="contact-heading">
+    <section class="section section-contact section-contrast" aria-labelledby="contact-heading">
       <div class="container contact-panel">
         <div class="contact-copy">
           <p class="eyebrow">Kontakt</p>
           <h2 id="contact-heading">Lad os tage en indledende dialog</h2>
           <p>
-            Hjemmesiden er et overblik over vores profil og undervisning. Har du
-            et konkret behov, er du velkommen til at tage kontakt for en
-            uforpligtende drøftelse.
+            Har du et konkret behov for undervisning, oplæg eller et fagligt forløb,
+            er du velkommen til at tage kontakt. Vi går gerne i dialog om målgruppe,
+            format og indhold.
+          </p>
+          <p>
+            Mail:
+            <a class="text-link" href="mailto:kontakt@blomstermarken.com">kontakt@blomstermarken.com</a>
           </p>
         </div>
 
@@ -227,7 +265,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>Blomstermarken ApS</p>
+      <p>Blomstermarken</p>
       <p class="footer-note">Undervisning og faglig formidling</p>
     </div>
   </footer>
