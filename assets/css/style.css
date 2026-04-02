@@ -532,16 +532,25 @@ ul {
 .hero-list {
   max-width: 57ch;
   margin: 0 0 1.25rem;
-  padding-left: 1.1rem;
+  padding: 0;
+  list-style: none;
   color: var(--color-text-soft);
 }
 
 .hero-list li {
-  margin-bottom: 0.45rem;
+  position: relative;
+  margin-bottom: 0.55rem;
+  padding-left: 1.1rem;
   line-height: 1.72;
-}
-.hero-list li::marker {
   color: var(--color-text-soft);
+}
+
+.hero-list li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--color-text-muted);
 }
 
 .hero-list li:last-child {
