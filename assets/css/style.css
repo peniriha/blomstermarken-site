@@ -540,6 +540,9 @@ ul {
   margin-bottom: 0.45rem;
   line-height: 1.72;
 }
+.hero-list li::marker {
+  color: var(--color-text-soft);
+}
 
 .hero-list li:last-child {
   margin-bottom: 0;
