@@ -529,6 +529,21 @@ ul {
 .contact-page .hero-image-frame {
   display: none;
 }
+.hero-list {
+  max-width: 57ch;
+  margin: 0 0 1.25rem;
+  padding-left: 1.1rem;
+  color: var(--color-text-soft);
+}
+
+.hero-list li {
+  margin-bottom: 0.45rem;
+  line-height: 1.72;
+}
+
+.hero-list li:last-child {
+  margin-bottom: 0;
+}
 /* =========================================
    Buttons / text links
    ========================================= */
